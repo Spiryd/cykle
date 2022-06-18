@@ -29,11 +29,6 @@ def cycle(permutation):
             cycles.append(cycle)
             for j in cycle: 
                 permutation[permutation.index(j)] = 0
-    """            
-    for cycle in cycles:
-        if len(cycle) == 1:
-            cycles.remove(cycle)
-    """
     return cycles
 
 def test():
