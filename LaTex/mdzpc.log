@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.18)  19 JUN 2022 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.18)  19 JUN 2022 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,21 +113,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/Maksymilian Neumann/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-] [2] (mdzpc.aux) ) 
+] (mdzpc.aux) ) 
 Here is how much of TeX's memory you used:
  1564 strings out of 478582
- 28625 string characters out of 2837700
- 345851 words of memory out of 3000000
+ 28649 string characters out of 2837700
+ 340851 words of memory out of 3000000
  19804 multiletter control sequences out of 15000+600000
  470769 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,6n,52p,161b,190s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Maksymilian Neumann/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on mdzpc.pdf (2 pages, 33751 bytes).
+<C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Maksymilian Neumann/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on mdzpc.pdf (1 page, 31525 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
+ 16 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
