@@ -7,7 +7,7 @@ from statistics import mean
 
 
 def shuffle(given):
-    """generates a random permutation with a Fisher-Yates shuffle"""
+    """generuje randomową permutracje przez Fisher-Yates shuffle"""
     permutation = []
     for i in range(len(given)):
         temp = random.randint(0, (len(given)-1))
@@ -15,8 +15,8 @@ def shuffle(given):
         given.pop(temp)
     return permutation
 
-def cycle(permutation):
-    """turns a permutation into cycles """
+def cycler(permutation):
+    """rozkłada permutacje na cykle"""
     cycles = []
     for i in range(1, len(permutation) + 1):
         if permutation[i - 1] != 0: 
@@ -32,21 +32,36 @@ def cycle(permutation):
     return cycles
 
 def test():
-    """tests the code and writes it to a csv file"""
+    """testuje kod i dodaje wyniki do pliku csv"""
     f = open("test.csv", 'w')
     f.write("n;avrage number of cycles cycles\n")
-    for i in range(1, 101):
+    for n in range(1, 101):
         lengths = []
-        for j in range(8000):
-            x = list(range(1, i + 1))
-            lengths.append(len(cycle(shuffle(x))))
-        row = str(i) + ";" + str(mean(lengths)) + "\n"
+        for i in range(8000):
+            x = list(range(1, n + 1))
+            lengths.append(len(cycler(shuffle(x))))
+        row = str(n) + ";" + str(mean(lengths)) + "\n"
         f.write(row)
+    f.close()
+    
+def zadanie():
+    """numeryczny eksperyment, zadanie główne"""
+    f = open("zadanie.csv", 'w')
+    f.write("n;avrage max length of a cycle in a permutation\n")
+    for n in range(1, 101):
+        maxLengths = []
+        for i in range(8000):
+            x = list(range(1, n + 1))
+            maxLengths.append(max(len(c) for c in cycler(shuffle(x))))
+        row = str(n) + ";" + str(mean(maxLengths)) + "\n"
+        f.write(row)    
     f.close()
         
 def main():
+    """interfejs do programu"""
     menu_options = {
     1: 'Test',
+    2: 'Zadanie',
     0: 'Exit',
     }
     while(True):
@@ -56,6 +71,8 @@ def main():
         match choice:
             case 1:
                 test()
+            case 2:
+                zadanie()
             case 0:
                 exit()
             case _:
