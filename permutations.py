@@ -6,13 +6,14 @@ import random
 from statistics import mean
 
 
-def shuffle(given):
-    """generuje randomową permutracje przez Fisher-Yates shuffle"""
+def shuffle(n):
+    """generuje randomową permutracje przez Fisher-Yates shuffle dla Sn"""
+    base = list(range(1, n+1))
     permutation = []
-    for i in range(len(given)):
-        temp = random.randint(0, (len(given)-1))
-        permutation.insert(0, given[temp])
-        given.pop(temp)
+    for i in range(len(base)):
+        temp = random.randint(0, (len(base)-1))
+        permutation.insert(0, base[temp])
+        base.pop(temp)
     return permutation
 
 def cycler(permutation):
@@ -38,8 +39,7 @@ def test():
     for n in range(1, 101):
         lengths = []
         for i in range(8000):
-            x = list(range(1, n + 1))
-            lengths.append(len(cycler(shuffle(x))))
+            lengths.append(len(cycler(shuffle(n))))
         row = str(n) + ";" + str(mean(lengths)) + "\n"
         f.write(row)
     f.close()
@@ -51,8 +51,7 @@ def zadanie():
     for n in range(1, 101):
         maxLengths = []
         for i in range(10000):
-            x = list(range(1, n + 1))
-            maxLengths.append(max(len(c) for c in cycler(shuffle(x))))
+            maxLengths.append(max(len(c) for c in cycler(shuffle(n))))
         row = str(n) + ";" + str(mean(maxLengths)) + "\n"
         f.write(row)    
     f.close()
