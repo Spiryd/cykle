@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.18)  20 JUN 2022 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.18)  21 JUN 2022 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,51 +716,66 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
+(C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/sidecap\s
+idecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+(C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/base\ifth
+en.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen156
+\SC@CAPWD=\dimen157
+\SC@tempdima=\dimen158
+\SC@tempdimb=\dimen159
+\c@SC@C=\count302
+\SC@BOX=\box55
+)
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/l3backend
 \l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count303
+\l__pdf_internal_box=\box56
 ) (mdzpc.aux)
 \openout1 = `mdzpc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 53.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
-1.
+3.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-f
 d\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Info: Redefining \microtypecontext on input line 51.
-Package microtype Info: Applying patch `item' on input line 51.
-Package microtype Info: Applying patch `toc' on input line 51.
-Package microtype Info: Applying patch `eqnum' on input line 51.
-Package microtype Info: Applying patch `footnote' on input line 51.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Info: Redefining \microtypecontext on input line 53.
+Package microtype Info: Applying patch `item' on input line 53.
+Package microtype Info: Applying patch `toc' on input line 53.
+Package microtype Info: Applying patch `eqnum' on input line 53.
+Package microtype Info: Applying patch `footnote' on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 51.
+LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -773,16 +788,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/context/base/mk
 ii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen156
-\scratchbox=\box56
-\nofMPsegments=\count304
-\nofMParguments=\count305
+\scratchcounter=\count304
+\scratchdimen=\dimen160
+\scratchbox=\box57
+\nofMPsegments=\count305
+\nofMParguments=\count306
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen157
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen161
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
 \everyMPtoPDFconversion=\toks28
 )
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-
@@ -795,39 +810,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count309
-LaTeX Font Info:    Trying to load font information for OML+plm on input line 5
-8.
+\c@lstlisting=\count310
+
+(C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\
+ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
+)
+LaTeX Font Info:    Trying to load font information for OML+plm on input line 6
+0.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\om
 lplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
-58.
+60.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\om
 splsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
-58.
+60.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\om
 xplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 58.
+(Font)              <14.4> on input line 60.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 58.
+(Font)              <10> on input line 60.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 60.
  [1
 
 {C:/Users/Maksymilian Neumann/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
@@ -837,7 +871,7 @@ lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
-73.
+75.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot
 4cmtt.fd
@@ -846,88 +880,179 @@ File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT4/cmtt/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 73.
+(microtype)                protrusion for this font on input line 75.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT4/cmtt/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 73.
+(microtype)                protrusion for this font on input line 75.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [2]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 110.
+(Font)              <12> on input line 112.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 110.
+(Font)              <8> on input line 112.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 110.
+(Font)              <6> on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
 <Test.png, id=13, 361.35pt x 361.35pt>
 File: Test.png Graphic file (type png)
 <use Test.png>
-Package pdftex.def Info: Test.png  used on input line 131.
+Package pdftex.def Info: Test.png  used on input line 133.
 (pdftex.def)             Requested size: 213.39566pt x 213.39867pt.
 <Harmonic.png, id=15, 361.35pt x 361.35pt>
 File: Harmonic.png Graphic file (type png)
 <use Harmonic.png>
-Package pdftex.def Info: Harmonic.png  used on input line 132.
+Package pdftex.def Info: Harmonic.png  used on input line 134.
 (pdftex.def)             Requested size: 213.39566pt x 213.39867pt.
 
-Overfull \hbox (39.4024pt too wide) in paragraph at lines 131--133
+Overfull \hbox (39.4024pt too wide) in paragraph at lines 133--135
 [][] [] 
  []
 
 <Overlayed.png, id=16, 781.9614pt x 424.9476pt>
 File: Overlayed.png Graphic file (type png)
 <use Overlayed.png>
-Package pdftex.def Info: Overlayed.png  used on input line 139.
+Package pdftex.def Info: Overlayed.png  used on input line 141.
 (pdftex.def)             Requested size: 426.79134pt x 231.93875pt.
+! Missing number, treated as zero.
+<to be read again> 
+                   h
+l.143 \end{SCfigure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 139--140
- [][] 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   h
+l.143 \end{SCfigure}
+                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \advance 
+l.143 \end{SCfigure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \advance 
+l.143 \end{SCfigure}
+                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (426.79134pt too wide) in paragraph at lines 143--143
+[][][][] 
+ []
+
+
+Overfull \hbox (44.48296pt too wide) in paragraph at lines 143--143
+[][]\OT4/cmr/m/n/12 (-20) :
+ []
+
+
+Overfull \hbox (38.12297pt too wide) in paragraph at lines 143--143
+|\OT4/cmr/m/n/12 (-20) Wykres
+ []
+
+
+Overfull \hbox (42.64163pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) wyników
+ []
+
+
+Overfull \hbox (40.00963pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) ekspery-
+ []
+
+
+Overfull \hbox (31.6594pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) mentu
+ []
+
+
+Overfull \hbox (44.37083pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) naªo»ony
+ []
+
+
+Overfull \hbox (12.1546pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) na
+ []
+
+
+Overfull \hbox (40.89612pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) warto±ci
+ []
+
+
+Overfull \hbox (55.97511pt too wide) in paragraph at lines 143--143
+\OT4/cmr/m/n/12 (-20) oczekiwane| 
  []
 
 [3 <./Test.png> <./Harmonic.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[4 <./Overlayed.png>] [5] (mdzpc.aux) ) 
+[4 <./Overlayed.png>] [5] (mdzpc.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9332 strings out of 478582
- 149254 string characters out of 2837700
- 846407 words of memory out of 3000000
- 27367 multiletter control sequences out of 15000+600000
+ 9584 strings out of 478582
+ 153971 string characters out of 2837700
+ 848607 words of memory out of 3000000
+ 27608 multiletter control sequences out of 15000+600000
  480430 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,1004b,1742s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Maksymilian Neumann/AppData/Lo
-cal/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/Maksymilian Neumann/A
-ppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}{C:/Users/Maksymilian 
-Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Mak
-symilian Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/
-Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt
-.enc}<C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/pl/plbx12.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/pl/plex10.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/Maksymilian Neumann/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/Maksymili
-an Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Us
-ers/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr
-17.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/pl/plr6.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/pl/plr8.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/Maksymilian Neumann/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/pl/pltt10.pfb>
-Output written on mdzpc.pdf (5 pages, 125429 bytes).
+ 55i,7n,62p,1004b,1742s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/p
+l/plme.enc}{C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/en
+c/dvips/pl/plrm.enc}{C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX
+/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Maksymilian Neumann/AppData/Local/Progra
+ms/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/Maksymilian Neumann/AppData/Loc
+al/Programs/MiKTeX/fonts/enc/dvips/pl/pltt.enc}<C:/Users/Maksymilian Neumann/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/Maksymil
+ian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/
+Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/p
+lmi12.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/pl/plmi8.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/pl/plr12.pfb><C:/Users/Maksymilian Neumann/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/Maksymilian Neumann/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/Maksymil
+ian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Us
+ers/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/pls
+y10.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/pl/pltt10.pfb>
+Output written on mdzpc.pdf (5 pages, 125706 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
