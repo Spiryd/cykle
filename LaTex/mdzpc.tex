@@ -15,6 +15,9 @@
 \usepackage{listings}
 \usepackage{xcolor}
 
+
+\newcommand{\stirlingone}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}}
+
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -144,6 +147,17 @@ Wyniki eksperymentu sugerują poprawność kodu.
 \begin{center}
 \textbf{\Large{Hipoteza:}}
 \end{center}
+Można zauważyć, że dla $\pi \in S_{n}$ ,gdzie $\pi$ = $C_1 \circ$…$\circ C_k$ 
+\begin{center}
+1. $M_n$ = max(len($C_1$),…,len($C_k$)) = $\lceil \frac{n}{k} \rceil$ 
+\end{center}
+2.Wiemy również że takich maksymalnych długości jest $\stirlingone{n}{k}$\\
+\begin{center}
+Z 1. i 2. wynika:
+\end{center}
+\[E(M_n) = \frac{\sum_{k=1}^{n} \lceil \frac{n}{k} \rceil \stirlingone{n}{k}}{n!}\]
+
+
 
 \begin{center}
 \textbf{\Large{Eksperyment:}}
@@ -165,10 +179,5 @@ def zadanie():
     f.close()
 \end{lstlisting}
 
-\begin{figure}[ht]
-
-\includegraphics[width=7cm]{ZadanieExp.png}
-
-\end{figure}
 
 \end{document}

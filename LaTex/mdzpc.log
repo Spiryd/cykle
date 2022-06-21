@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.18)  19 JUN 2022 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.18)  20 JUN 2022 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,43 +724,43 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (mdzpc.aux)
 \openout1 = `mdzpc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 48.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 4
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 51.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
+1.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-f
 d\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-Package microtype Info: Applying patch `footnote' on input line 48.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Info: Redefining \microtypecontext on input line 51.
+Package microtype Info: Applying patch `item' on input line 51.
+Package microtype Info: Applying patch `toc' on input line 51.
+Package microtype Info: Applying patch `eqnum' on input line 51.
+Package microtype Info: Applying patch `footnote' on input line 51.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 48.
+LaTeX Info: Redefining \showhyphens on input line 51.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -797,37 +797,37 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count309
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 5
-5.
+8.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\om
 lplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
-55.
+58.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\om
 splsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
-55.
+58.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\om
 xplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 55.
+(Font)              <14.4> on input line 58.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 55.
+(Font)              <10> on input line 58.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 58.
  [1
 
 {C:/Users/Maksymilian Neumann/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
@@ -837,7 +837,7 @@ lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
-70.
+73.
 
 (C:\Users\Maksymilian Neumann\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot
 4cmtt.fd
@@ -846,88 +846,90 @@ File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT4/cmtt/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 70.
+(microtype)                protrusion for this font on input line 73.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OT4/cmtt/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 70.
+(microtype)                protrusion for this font on input line 73.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 [2]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 107.
+(Font)              <12> on input line 110.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 107.
+(Font)              <8> on input line 110.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 107.
+(Font)              <6> on input line 110.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 <Test.png, id=13, 361.35pt x 361.35pt>
 File: Test.png Graphic file (type png)
 <use Test.png>
-Package pdftex.def Info: Test.png  used on input line 128.
+Package pdftex.def Info: Test.png  used on input line 131.
 (pdftex.def)             Requested size: 213.39566pt x 213.39867pt.
 <Harmonic.png, id=15, 361.35pt x 361.35pt>
 File: Harmonic.png Graphic file (type png)
 <use Harmonic.png>
-Package pdftex.def Info: Harmonic.png  used on input line 129.
+Package pdftex.def Info: Harmonic.png  used on input line 132.
 (pdftex.def)             Requested size: 213.39566pt x 213.39867pt.
 
-Overfull \hbox (39.4024pt too wide) in paragraph at lines 128--130
+Overfull \hbox (39.4024pt too wide) in paragraph at lines 131--133
 [][] [] 
  []
 
 <Overlayed.png, id=16, 781.9614pt x 424.9476pt>
 File: Overlayed.png Graphic file (type png)
 <use Overlayed.png>
-Package pdftex.def Info: Overlayed.png  used on input line 136.
+Package pdftex.def Info: Overlayed.png  used on input line 139.
 (pdftex.def)             Requested size: 426.79134pt x 231.93875pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 136--137
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
 [3 <./Test.png> <./Harmonic.png>]
-<ZadanieExp.png, id=25, 361.35pt x 361.35pt>
-File: ZadanieExp.png Graphic file (type png)
-<use ZadanieExp.png>
-Package pdftex.def Info: ZadanieExp.png  used on input line 170.
-(pdftex.def)             Requested size: 199.16928pt x 199.16766pt.
- [4 <./Overlayed.png>] [5 <./ZadanieExp.png>]
-(mdzpc.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[4 <./Overlayed.png>] [5] (mdzpc.aux) ) 
 Here is how much of TeX's memory you used:
- 9338 strings out of 478582
- 149372 string characters out of 2837700
- 846383 words of memory out of 3000000
- 27372 multiletter control sequences out of 15000+600000
+ 9332 strings out of 478582
+ 149254 string characters out of 2837700
+ 846407 words of memory out of 3000000
+ 27367 multiletter control sequences out of 15000+600000
  480430 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,1004b,1348s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/
-enc/dvips/pl/plmi.enc}{C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKT
-eX/fonts/enc/dvips/pl/plms.enc}{C:/Users/Maksymilian Neumann/AppData/Local/Prog
-rams/MiKTeX/fonts/enc/dvips/pl/pltt.enc}{C:/Users/Maksymilian Neumann/AppData/L
-ocal/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}<C:/Users/Maksymilian Neumann/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/Maksym
-ilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C
-:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl
-/plmi8.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/pl/plr12.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/Maksymilian Neumann/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/Maksymilian Neumann/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/Maksym
-ilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/pltt10.pfb>
-Output written on mdzpc.pdf (5 pages, 131627 bytes).
+ 55i,6n,62p,1004b,1742s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Maksymilian Neumann/AppData/Lo
+cal/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/Maksymilian Neumann/A
+ppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}{C:/Users/Maksymilian 
+Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Mak
+symilian Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/
+Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt
+.enc}<C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/pl/plbx12.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/pl/plex10.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/Maksymilian Neumann/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/Maksymili
+an Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Us
+ers/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr
+17.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/pl/plr6.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/pl/plr8.pfb><C:/Users/Maksymilian Neumann/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/Maksymilian Neumann/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/pl/pltt10.pfb>
+Output written on mdzpc.pdf (5 pages, 125429 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 20501 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20496 words of extra memory for PDF output out of 20736 (max. 10000000)
 
