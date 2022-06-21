@@ -50,7 +50,7 @@ def zadanie():
     f.write("n;avrage max length of a cycle in a permutation\n")
     for n in range(1, 101):
         maxLengths = []
-        for i in range(8000):
+        for i in range(10000):
             x = list(range(1, n + 1))
             maxLengths.append(max(len(c) for c in cycler(shuffle(x))))
         row = str(n) + ";" + str(mean(maxLengths)) + "\n"
