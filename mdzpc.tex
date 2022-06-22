@@ -1,0 +1,251 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{index}
+\usepackage{textgreek}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+\newcommand{\stirlingone}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}
+{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+%\makeindex
+
+\begin{document}
+
+\title{%
+ Zadanie Programistyczne 2:\\
+\large Cykle}
+\author{Maksymilian Neumann}
+
+\maketitle
+
+\fancyhf{}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+\fancyhead{\leftmark}
+\fancyfoot{\thepage}
+
+\newpage
+
+
+\section{Implementacja Fisher-Yates shuffles}
+
+Funkcja przyjmuje $n \in N^+$ i zwraca jej losową permutacje należącą do $S_n$.\\
+
+\begin{lstlisting}[language=Python, caption=Implementacja Fisher-Yates shuffles]
+import random
+
+def shuffle(n):
+    base = list(range(1, n+1))#element neutralny permutacji
+    permutation = []
+    for i in range(len(base)):
+        temp = random.randint(0, (len(base)-1))
+        permutation.insert(0, base[temp])
+        base.pop(temp)
+    return permutation
+\end{lstlisting}
+
+\section{Rozkład Permutacji na Cykle}
+
+Funkcja przyjmuje permutacje w postaci listy i zwraca rozkład jej na cykle w postaci listy list.\\
+
+\begin{lstlisting}[language=Python, caption=Rozkład Permutacji na cykle]
+def cycler(permutation):
+    cycles = []#lista cykli
+    for i in range(1, len(permutation) + 1):
+        if permutation[i - 1] != 0: #dodaje cykl do listy
+            temp = i
+            cycle = []
+            cycle.append(i)
+            while permutation[temp - 1] != i:
+                cycle.append(permutation[temp - 1])
+                temp = permutation[temp - 1]
+            cycles.append(cycle)
+            for j in cycle: #oznacza jako uzyte w cyklu
+                permutation[permutation.index(j)] = 0
+    return cycles
+\end{lstlisting}
+
+\newpage
+
+\section{Test Działania Kodu}
+
+Z wykładu dowiedzieliśmy się ,że dla $\pi \in S_{n}$ ,gdzie $L(\pi)$ = liczba cykli permutacji $\pi$ \[ E(L) = H_{n}\]
+która będzie naszą oczekiwaną wartością\\
+
+\begin{lstlisting}[language=Python, caption=Test zapisyjący wyniki do pliku]
+from statistics import mean
+
+def test():
+    f = open("test.csv", 'w')#plik z wynikami
+    f.write("n;avrage number of cycles\n")
+    for n in range(1, 101):
+        lengths = []#dlugosci cykli
+        for i in range(8000):
+            lengths.append(len(cycler(shuffle(n))))
+        row = str(n) + ";" + str(mean(lengths)) + "\n"
+        f.write(row)#wpisuje n i srednia dlugosc
+    f.close()
+\end{lstlisting}
+
+\begin{center}
+{\Large \textbf{Wyniki:}}
+\end{center}
+
+\begin{table}[hb]
+\centering
+\caption{Wyniki eksperymentu}
+\label{tab:my-table}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\textbf{n} & \textbf{wynik} & \textbf{n} & \textbf{wynik} & ... & \textbf{n} & \textbf{wynik} \\ \hline
+1          & 1              & 11         & 3.0295         & ... & 91         & 5.10725        \\ \hline
+2          & 1.49675        & 12         & 3.104375       & ... & 92         & 5.07775        \\ \hline
+3          & 1.84175        & 13         & 3.18375        & ... & 93         & 5.095875       \\ \hline
+4          & 2.086625       & 14         & 3.269375       & ... & 94         & 5.139875       \\ \hline
+5          & 2.294625       & 15         & 3.32475        & ... & 95         & 5.099875       \\ \hline
+6          & 2.46375        & 16         & 3.395125       & ... & 96         & 5.17275        \\ \hline
+7          & 2.5915         & 17         & 3.45175        & ... & 97         & 5.17175        \\ \hline
+8          & 2.7125         & 18         & 3.49375        & ... & 98         & 5.16425        \\ \hline
+9          & 2.8165         & 19         & 3.520625       & ... & 99         & 5.164375       \\ \hline
+10         & 2.915125       & 20         & 3.615375       & ... & 100        & 5.191          \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[]
+ \caption{Lewy wykres przedstawia wyniki eksperymentu, Prawy wartości oczekiwane}
+\includegraphics[width=7.5cm]{Test.png}
+\includegraphics[width=7.5cm]{Harmonic.png}
+
+\end{figure}
+
+\begin{figure}[]
+\centering
+ \caption{Wykres wyników eksperymentu nałożony na wartości oczekiwane}
+\includegraphics[width=15cm]{Overlayed.png}
+
+\end{figure}
+\newpage
+Wyniki eksperymentu sugerują poprawność kodu.
+
+\section{Główne Zadanie}
+
+\begin{center}
+\textbf{\Large{Hipoteza:}}
+\end{center}
+Można zauważyć, że dla $\pi \in S_{n}$ ,gdzie $\pi$ = $C_1 \circ$…$\circ C_k$ 
+\begin{center}
+1. $M_n$ = max(len($C_1$),…,len($C_k$)) = $\lceil \frac{n}{k} \rceil$ 
+\end{center}
+2.Wiemy również że takich maksymalnych długości jest $\stirlingone{n}{k}$\\
+\begin{center}
+Z 1. i 2. wynika:
+\end{center}
+\[E(M_n) = \frac{\sum_{k=1}^{n} \lceil \frac{n}{k} \rceil \stirlingone{n}{k}}{n!}\]
+\newpage
+
+\begin{center}
+\textbf{\Large{Eksperyment:}}
+\end{center}
+
+\begin{lstlisting}[language=Python, caption=Eksperyment numeryczny dla głównego zadania]
+from statistics import mean
+
+def zadanie():
+    f = open("zadanie.csv", 'w')#plik z wynikami
+    f.write("n;avrage max length of a cycle in a permutation\n")
+    for n in range(1, 101):
+        maxLengths = []#maksymalne dlugosci
+        for i in range(8000):
+            maxLengths.append(max(len(c) for c in cycler(shuffle(n))))
+        row = str(n) + ";" + str(mean(maxLengths)) + "\n"
+        f.write(row)#wpisuje n i srednia max dlugosc
+    f.close()
+\end{lstlisting}
+
+\begin{center}
+\textbf{\Large{Wyniki:}}
+\end{center}
+\begin{table}[hb]
+\centering
+\caption{Wyniki eksperymentu}
+\label{tab:my-table}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\textbf{n} & \textbf{wynik} & \textbf{n} & \textbf{wynik} & ... & \textbf{n} & \textbf{wynik} \\ \hline
+1          & 1              & 11         & 7.2196         & ... & 91         & 56.21          \\ \hline
+2          & 1.5024         & 12         & 7.8068         & ... & 92         & 57.1102        \\ \hline
+3          & 2.167          & 13         & 8.4079         & ... & 93         & 58.2188        \\ \hline
+4          & 2.7766         & 14         & 9.0534         & ... & 94         & 59.1646        \\ \hline
+5          & 3.4133         & 15         & 9.64           & ... & 95         & 59.7959        \\ \hline
+6          & 4.0509         & 16         & 10.3097        & ... & 96         & 60.2964        \\ \hline
+7          & 4.6599         & 17         & 10.8826        & ... & 97         & 60.9523        \\ \hline
+8          & 5.2903         & 18         & 11.5868        & ... & 98         & 61.4482        \\ \hline
+9          & 5.8982         & 19         & 12.1614        & ... & 99         & 62.2856        \\ \hline
+10         & 6.5387         & 20         & 12.7366        & ... & 100        & 62.3016        \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[]
+\centering
+ \caption{Wykres wyników eksperymentu}
+\includegraphics[width=15cm]{Experiment.png}
+
+\end{figure}
+\newpage
+
+\begin{center}
+\textbf{\Large{Wnioski:}}
+\end{center}
+Hipoteza ta okazała się być płytka, naiwna i błędna. Poprawna jedynie dla $n \leq 3$ . Prawdziwa Odpowiedź okazała się być dość skomplikowana i fascynująca o, której dowiedziałem się dzięki "Probabilistic Methods in Discrete Mathematics" 
+
+\newpage
+
+\section{Referencje}
+
+\begin{itemize}
+
+\item Wykresy stworzone przy użyciu biblioteki seaborn
+\item \href{https://github.com/Spiryd/cykle}{Repozytorium z zadaniem}
+
+\end{itemize}
+
+\end{document}
