@@ -1,3 +1,0 @@
-\babel@toc {polish}{}\relax 
-\contentsline {section}{\numberline {1}Implementacja Fisher-Yates shuffles}{1}{}%
-\contentsline {section}{\numberline {2}A}{1}{}%
